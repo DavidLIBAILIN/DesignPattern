@@ -40,7 +40,7 @@ class HeadTennisRacket extends RacketPrototype {
     @Override
     public RacketPrototype clone() {
         System.out.printf("Head clone: %s %s %s %s\n", this.brand, this.model, this.weight, this.balancePoint);
-        return new WilsonTennisRacket(this.brand, this.model, this.weight, this.balancePoint);
+        return new HeadTennisRacket(this.brand, this.model, this.weight, this.balancePoint);
     }
 }
 
