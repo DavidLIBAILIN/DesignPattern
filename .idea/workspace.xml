@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="323cbd91-6836-4260-9dfa-f55b387fedbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/StructuralPatterns/AdapterPattern/ObjectAdapterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/StructuralPatterns/DecoratorPattern/Coffee2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/StructuralPatterns/BridgePattern/OnlineStore2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/StructuralPatterns/BridgePattern/OnlineStore2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,11 @@
   "keyToString": {
     "Application.AirMain2.executor": "Run",
     "Application.BrandBooth.executor": "Run",
+    "Application.Coffee2.executor": "Run",
     "Application.ObjectAdapterDemo.executor": "Run",
+    "Application.OnlineStore2 (1).executor": "Run",
+    "Application.OnlineStore2 (2).executor": "Run",
+    "Application.OnlineStore2 (3).executor": "Run",
     "Application.OnlineStore2.executor": "Run",
     "Application.ShapeMain2 (1).executor": "Run",
     "Application.ShapeMain2.executor": "Run",
@@ -61,13 +67,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ObjectAdapterDemo">
-    <configuration name="AirMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.BehavioralPatterns.MediatorPattern.AirMain2" />
+  <component name="RunManager" selected="Application.Coffee2">
+    <configuration name="Coffee2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.StructuralPatterns.DecoratorPattern.Coffee2" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.BehavioralPatterns.MediatorPattern.*" />
+          <option name="PATTERN" value="com.demo.StructuralPatterns.DecoratorPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +81,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectAdapterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.StructuralPatterns.AdapterPattern.ObjectAdapterDemo" />
+    <configuration name="OnlineStore2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.StructuralPatterns.BridgePattern.OnlineStore2" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.StructuralPatterns.AdapterPattern.*" />
+          <option name="PATTERN" value="com.demo.StructuralPatterns.BridgePattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnlineStore2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.StructuralPatterns.BridgePattern.OnlineStore2" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.StructuralPatterns.BridgePattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnlineStore2 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.StructuralPatterns.BridgePattern.OnlineStore2" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.StructuralPatterns.BridgePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,39 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeMain2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.BehavioralPatterns.VisitorPattern.ShapeMain2" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.BehavioralPatterns.VisitorPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShapeMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.BehavioralPatterns.VisitorPattern.ShapeMain2" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.BehavioralPatterns.VisitorPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObjectAdapterDemo" />
-        <item itemvalue="Application.ShapeMain2 (1)" />
-        <item itemvalue="Application.ShapeMain2" />
+        <item itemvalue="Application.Coffee2" />
+        <item itemvalue="Application.OnlineStore2 (3)" />
         <item itemvalue="Application.OnlineStore2" />
-        <item itemvalue="Application.AirMain2" />
+        <item itemvalue="Application.OnlineStore2 (2)" />
+        <item itemvalue="Application.OnlineStore2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732892826259</updated>
-      <workItem from="1732892827358" duration="22455000" />
+      <workItem from="1732892827358" duration="24657000" />
     </task>
     <servers />
   </component>

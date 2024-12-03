@@ -17,10 +17,14 @@ class WechatPayment implements Payment {
 }
 
 abstract class Product {
-    protected Payment payment;
+    private final Payment payment;
 
     public Product(Payment payment) {
         this.payment = payment;
+    }
+
+    public Payment getPayment() {
+        return this.payment;
     }
 
     public abstract void purchase();
@@ -33,7 +37,7 @@ class Book extends Product {
 
     @Override
     public void purchase() {
-        this.payment.processPayment();
+        this.getPayment().processPayment();
         System.out.println("Purchase Book");
     }
 
@@ -46,7 +50,7 @@ class Electronics extends Product {
 
     @Override
     public void purchase() {
-        this.payment.processPayment();
+        this.getPayment().processPayment();
         System.out.println("Purchase Electronics");
     }
 }
